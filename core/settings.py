@@ -130,12 +130,12 @@ dbport = os.getenv("DATABASE_PORT")
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db1',
-        'USER': 'somya',
-        'PASSWORD': '5184',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'somya7$db',
+        'USER': 'somya7',
+        'PASSWORD': 'somya@2002',
+        'HOST': 'somya7.mysql.pythonanywhere-services.com',
+        'PORT': '3306',
     }
 }
 
